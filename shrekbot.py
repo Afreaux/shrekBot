@@ -1,6 +1,6 @@
 import pyautogui, time
 time.sleep(6)
-f = open("shrek", "r")
+f = open("shrekScript", "r")
 
 for word in f:
     pyautogui.typewrite(word)
